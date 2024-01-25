@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .card {
+            display: flex; /* Add flex display */
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 0.25rem;
+            padding: 1.25rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .name {
+            flex: 1; /* Take up remaining space */
+            color:blue;
+            
+        }
+
+        .name img {
+            width: 100%; /* Make sure the image takes up full width of .name */
+            margin-bottom: 10px; /* Add distance between image and info */
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .card-text {
+            margin-bottom: 1.25rem;
+        }
+
+        .card-link {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .card-link:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+        button {
+            color: black;
+            border-radius: 5px;
+            height: 50px;
+            padding: 5px;
+            margin: 5px;
+            background-color: rgb(0, 255, 234);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="name">
+                <img height="175px" width="140px" src="himaliya.jpg" alt="Name's Photo"> <!-- Add your image here -->
+                <h5 class="card-title">himalaya gokshura</h5>
+            </div>
+            <div class="info">
+                <p class="card-text">Himalaya Gokshura Men's Wellness Tablets, 60 Tablets|Tribulus| Improves vigour/p>
+                    .</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
